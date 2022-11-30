@@ -1,0 +1,118 @@
+.all {
+  background: #e49dd4;
+  display: block;
+  margin: 100px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 20px;
+  padding: 0px 30px 30px 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.col-3.one {
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: static;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+h2 {
+  text-align: left;
+  font-size: 60px;
+  margin-bottom: 3px;
+  margin-left: 60px;
+}
+
+.types {
+  text-align: right;
+  list-style: none;
+  margin-right: 100px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+h3 {
+  text-align: center;
+  margin-right: 90px;
+  font-size: 20px;
+}
+
+.degrees {
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+a {
+  text-decoration: none;
+  color: #ca2ea6;
+}
+
+.type {
+  font-size: 23px;
+}
+
+em {
+  margin-left: 160px;
+}
+
+.weather {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.forecast-emoji {
+  font-size: 20px;
+}
+
+.forecast {
+  margin: auto;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: static;
+}
+
+.days {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+li {
+  padding: 10px;
+}
+
+.emojies {
+  list-style: none;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.weather-type-right {
+  list-style: none;
+  margin-left: -30px;
+  font-weight: 500;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+button:hover {
+  color: #9f167f;
+  text-decoration-line: underline;
+}
