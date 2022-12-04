@@ -116,3 +116,7 @@ button:hover {
   color: #9f167f;
   text-decoration-line: underline;
 }
+
+.link {
+  color: black;
+}
