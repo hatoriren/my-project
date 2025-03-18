@@ -3,7 +3,7 @@ function showCity(event) {
   let h1 = document.querySelector("h1");
   let input = document.querySelector("#floatingInput");
   h1.innerHTML = input.value;
-  let key = "51084c86d376918893b78ccf658f0bb2";
+  let key = "";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${key}&units=metric`;
   axios.get(url).then(apiResponse);
 }
